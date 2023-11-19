@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="600.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button blendMode="DIFFERENCE" layoutX="268.0" layoutY="152.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="84.0" style="-fx-background-radius: 120; -fx-background-color: red;" text="PLAY">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label layoutX="92.0" layoutY="21.0" prefHeight="65.0" prefWidth="406.0" text="          STICK HERO">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="316.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="227.0" layoutX="235.0" layoutY="353.0" stroke="BLACK" strokeType="INSIDE" width="33.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="158.0" layoutX="300.0" layoutY="419.0" stroke="BLACK" strokeType="INSIDE" width="71.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="410.0" layoutX="516.0" layoutY="168.0" stroke="BLACK" strokeType="INSIDE" width="84.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="208.0" layoutX="450.0" layoutY="373.0" stroke="BLACK" strokeType="INSIDE" width="48.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="471.0" layoutX="125.0" layoutY="109.0" stroke="BLACK" strokeType="INSIDE" width="71.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="285.0" layoutX="409.0" layoutY="294.0" stroke="BLACK" strokeType="INSIDE" width="19.0" />
+      <Button blendMode="HARD_LIGHT" layoutX="14.0" layoutY="280.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="71.0" style="-fx-background-radius: 200; -fx-border-image-source: /Users/vibhutimalhotra/Downloads/stickhero.jpg;" text="SLASH " />
+      <Button blendMode="HARD_LIGHT" layoutX="14.0" layoutY="373.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="71.0" style="-fx-background-radius: 200;" text="?">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button blendMode="HARD_LIGHT" layoutX="14.0" layoutY="459.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="71.0" style="-fx-background-radius: 200;" text="VOLUME" />
+      <Button blendMode="HARD_LIGHT" layoutX="521.0" layoutY="280.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="71.0" style="-fx-background-radius: 200;" text="NO ADS" />
+      <Button blendMode="HARD_LIGHT" layoutX="521.0" layoutY="373.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="71.0" style="-fx-background-radius: 200;" text="HEROES" />
+      <Button blendMode="HARD_LIGHT" layoutX="523.0" layoutY="459.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="71.0" style="-fx-background-radius: 200;" text="SHOP" />
+      <ImageView blendMode="HARD_LIGHT" fitHeight="72.0" fitWidth="71.0" layoutX="13.0" layoutY="457.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
